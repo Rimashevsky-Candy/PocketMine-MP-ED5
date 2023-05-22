@@ -88,15 +88,15 @@ class SimpleCommandMap implements CommandMap{
 
 	private function setDefaultCommands() : void{
 		$this->registerAll("pocketmine", [
-			new BanCommand("ban"),
+			/*new BanCommand("ban"),
 			new BanIpCommand("ban-ip"),
 			new BanListCommand("banlist"),
 			new ClearCommand("clear"),
 			new DefaultGamemodeCommand("defaultgamemode"),
 			new DeopCommand("deop"),
-			new DifficultyCommand("difficulty"),
+			new DifficultyCommand("difficulty"),*/
 			new DumpMemoryCommand("dumpmemory"),
-			new EffectCommand("effect"),
+			/*new EffectCommand("effect"),
 			new EnchantCommand("enchant"),
 			new GamemodeCommand("gamemode"),
 			new GarbageCollectorCommand("gc"),
@@ -110,24 +110,24 @@ class SimpleCommandMap implements CommandMap{
 			new PardonCommand("pardon"),
 			new PardonIpCommand("pardon-ip"),
 			new ParticleCommand("particle"),
-			new PluginsCommand("plugins"),
+			new PluginsCommand("plugins"),*/
 			new SaveCommand("save-all"),
-			new SaveOffCommand("save-off"),
+			/*new SaveOffCommand("save-off"),
 			new SaveOnCommand("save-on"),
 			new SayCommand("say"),
 			new SeedCommand("seed"),
 			new SetWorldSpawnCommand("setworldspawn"),
-			new SpawnpointCommand("spawnpoint"),
+			new SpawnpointCommand("spawnpoint"),*/
 			new StatusCommand("status"),
 			new StopCommand("stop"),
-			new TeleportCommand("tp"),
+			/*new TeleportCommand("tp"),
 			new TellCommand("tell"),
-			new TimeCommand("time"),
-			new TimingsCommand("timings"),
-			new TitleCommand("title"),
+			new TimeCommand("time"),*/
+			new TimingsCommand("timings")
+			/*new TitleCommand("title"),
 			new TransferServerCommand("transferserver"),
 			new VersionCommand("version"),
-			new WhitelistCommand("whitelist")
+			new WhitelistCommand("whitelist")*/
 		]);
 	}
 
